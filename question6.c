@@ -12,7 +12,9 @@ int main()
     unsigned char data[1024];
 
     if (inFile == NULL) {
-        printf ("%s can't be opened.\n", filename);
+        printf ("%s Problème de l'ouverture de fichiers
+
+.\n", filename);
         return 0;
     }
 
